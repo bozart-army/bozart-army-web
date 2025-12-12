@@ -529,3 +529,114 @@ h1{
   .panel{ grid-column: span 12; }
   .kv{ grid-template-columns: 1fr; }
 }
+
+
+/* === CHARACTER DOSSIER === */
+
+.char-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.2rem 4rem;
+}
+
+.char-back {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  opacity: .7;
+  text-decoration: none;
+}
+.char-back:hover { opacity: 1; }
+
+.char-header {
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  padding: 1.6rem;
+  background: linear-gradient(180deg, rgba(255,255,255,.03), transparent);
+}
+
+.char-name {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  letter-spacing: .12em;
+}
+
+.char-role {
+  opacity: .7;
+  margin-top: .25rem;
+}
+
+.char-tags {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.tagchip {
+  padding: .3rem .65rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  border: 1px solid rgba(255,255,255,.15);
+}
+.tagchip.accent { color: #7cf; border-color: #7cf; }
+.tagchip.warn { color: #f5c06a; border-color: #f5c06a; }
+.tagchip.danger { color: #ff4d4d; border-color: #ff4d4d; }
+
+.kv {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: .4rem .9rem;
+  margin-top: 1.4rem;
+  font-size: .9rem;
+}
+
+.k { opacity: .5; }
+.v.ok { color: #6bff95; }
+
+.char-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+@media (max-width: 800px) {
+  .char-grid { grid-template-columns: 1fr; }
+}
+
+.panel {
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  padding: 1.2rem;
+  background: rgba(0,0,0,.25);
+}
+
+.panel.wide { grid-column: span 2; }
+@media (max-width: 800px) {
+  .panel.wide { grid-column: span 1; }
+}
+
+.panel h2 {
+  margin-bottom: .5rem;
+  font-size: .95rem;
+  letter-spacing: .08em;
+  opacity: .8;
+}
+
+.char-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.char-links li {
+  display: flex;
+  justify-content: space-between;
+  padding: .35rem 0;
+  border-bottom: 1px dashed rgba(255,255,255,.08);
+}
+.char-links li span { font-weight: 600; }
+.char-links li em { opacity: .6; font-style: normal; }
+
+.char-footer {
+  margin-top: 2rem;
+  font-size: .8rem;
+  opacity: .6;
+  text-align: right;
+}
