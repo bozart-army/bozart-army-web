@@ -79,6 +79,7 @@ Beobachtung aktiv.
 ---
 
 ## LIZENZ
+Copyright (c) 2025 Saša Bagarić
 
 MIT License.
 
