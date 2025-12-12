@@ -1,13 +1,11 @@
-(async () => {
+(() => {
   console.log("BA-OS loaded");
 
-  const mount = document.createElement("div");
-  document.body.prepend(mount);
+  const mount = document.getElementById("topbar");
+  if (!mount) return;
 
-  try {
-    const res = await fetch("assets/partials/nav.html");
-    mount.innerHTML = await res.text();
-  } catch (e) {
-    console.warn("Nav failed to load");
-  }
+  fetch("/bozart-army-web/assets/partials/topbar.html", { cache: "no-cache" })
+    .then(r => r.text())
+    .then(html => mount.innerHTML = html)
+    .catch(() => console.warn("Topbar failed"));
 })();
