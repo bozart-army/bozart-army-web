@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: #070A12;
+  color: #E8F0FF;
+  font-family: system-ui, sans-serif;
+}
+.module {
+  display: block;
+  margin: 12px 0;
+  padding: 16px;
+  border: 1px solid #27F4FF55;
+  border-radius: 12px;
+}
+.locked {
+  opacity: 0.4;
+}
