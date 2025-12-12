@@ -5,7 +5,7 @@
   document.body.prepend(mount);
 
   try {
-    const res = await fetch("/assets/partials/nav.html");
+    const res = await fetch("assets/partials/nav.html");
     mount.innerHTML = await res.text();
   } catch (e) {
     console.warn("Nav failed to load");
