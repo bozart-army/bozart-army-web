@@ -1,94 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Zellen | Untergrund | BA-OS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="../../assets/css/ba-os.css">
+  <link rel="stylesheet" href="../../assets/css/style.css" />
 </head>
 <body>
 
+<header class="topbar">
   <div class="container">
-    <section class="shell">
-
-      <header class="topbar">
-        <div class="brand">
-          <span class="sig" aria-hidden="true"></span>
-          <div class="name">BOZART ARMY / UNTERGRUND / ZELLEN</div>
+    <div class="inner">
+      <div class="brand">
+        <span class="sig" aria-hidden="true"></span>
+        <div>
+          <div class="title">BOZART ARMY</div>
+          <div class="sub">BA-OS / WELTEN / UNTERGRUND / ZELLEN</div>
         </div>
+      </div>
 
-        <div class="status">
-          <span class="badge">NODE</span>
-          <span class="badge">INTERNAL</span>
-        </div>
-      </header>
-
-      <section class="panel">
-        <div class="hd">
-          <div>
-            <h2 class="title">Zellen</h2>
-            <p class="sub">
-              Zellen sind abgeschottete Einheiten.  
-              Sie bestehen aus Menschen, Räumen oder Zuständen.
-            </p>
-          </div>
-          <div class="right">
-            <span class="pill">STRUCTURE</span>
-          </div>
-        </div>
-
-        <div class="bd">
-          <ul class="list">
-
-            <li class="item">
-              <div class="left">
-                <div class="label">Autonome Zelle</div>
-                <div class="hint">Operiert unabhängig. Kennt nur minimale Verbindungen.</div>
-              </div>
-              <div class="right">
-                <span class="pill">ISOLATED</span>
-              </div>
-            </li>
-
-            <li class="item">
-              <div class="left">
-                <div class="label">Verbundene Zelle</div>
-                <div class="hint">Teil eines Netzwerks. Informationsfluss ist fragmentiert.</div>
-              </div>
-              <div class="right">
-                <span class="pill">LINKED</span>
-              </div>
-            </li>
-
-            <li class="item">
-              <div class="left">
-                <div class="label">Schläferzelle</div>
-                <div class="hint">Inaktiv. Wird nur durch externe Trigger aktiviert.</div>
-              </div>
-              <div class="right">
-                <span class="pill">DORMANT</span>
-              </div>
-            </li>
-
-          </ul>
-
-          <hr>
-
-          <p class="note">
-            Zellen kennen nicht die Gesamtstruktur.  
-            Das schützt das Netzwerk – und zerstört Vertrauen.
-          </p>
-        </div>
-
-        <div class="footer">
-          <div>welten/untergrund/zellen.html</div>
-          <div class="small">node • ba-os</div>
-        </div>
-      </section>
-
-    </section>
+      <nav class="nav">
+        <a href="index.html">Untergrund</a>
+        <a href="../index.html">Welten</a>
+      </nav>
+    </div>
   </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-card">
+
+      <div class="kicker">
+        <span class="dot"></span>
+        <span>STRUCTURE</span>
+      </div>
+
+      <h1>Zellen</h1>
+
+      <p class="lead">
+        Zellen sind abgeschottete Einheiten.  
+        Isolation ist Schutz – und Risiko.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-title">TYPEN</div>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Autonome Zelle</h3>
+        <p>Operiert unabhängig. Kennt keine Gesamtstruktur.</p>
+        <div class="badge"><span class="pill"></span><span>ISOLATED</span></div>
+      </div>
+
+      <div class="card">
+        <h3>Verbundene Zelle</h3>
+        <p>Teil eines Netzwerks. Informationen sind fragmentiert.</p>
+        <div class="badge"><span class="pill"></span><span>LINKED</span></div>
+      </div>
+
+      <div class="card">
+        <h3>Schläferzelle</h3>
+        <p>Inaktiv. Aktivierung nur durch externe Trigger.</p>
+        <div class="badge"><span class="pill"></span><span>DORMANT</span></div>
+      </div>
+
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="terminal">
+      <div class="row"><span class="muted">COUNT</span><span>UNKNOWN</span></div>
+      <div class="row"><span class="muted">VISIBILITY</span><span>LOW</span></div>
+      <div class="row"><span class="muted">NOTE</span><span>NO CELL SEES ALL</span></div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    welten/untergrund/zellen.html — BA-OS
+  </div>
+</footer>
+
+</main>
 
 </body>
 </html>
