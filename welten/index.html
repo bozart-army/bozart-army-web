@@ -1,108 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Welten | BA-OS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="../assets/css/ba-os.css">
+  <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
 
-<div class="container">
-  <section class="shell">
-
-    <header class="topbar">
+<header class="topbar">
+  <div class="container">
+    <div class="inner">
       <div class="brand">
         <span class="sig" aria-hidden="true"></span>
-        <div class="name">BOZART ARMY / WELTEN</div>
-      </div>
-      <div class="status">
-        <span class="badge">MAP</span>
-        <span class="badge">INCOMPLETE</span>
-      </div>
-    </header>
-
-    <section class="panel">
-      <div class="hd">
         <div>
-          <h2 class="title">Zonen</h2>
-          <p class="sub">
-            Die Welt ist fragmentiert.  
-            Zugriff ist nicht gleich Wissen.
-          </p>
+          <div class="title">BOZART ARMY</div>
+          <div class="sub">BA-OS / WELTEN</div>
         </div>
       </div>
 
-      <div class="bd">
-        <ul class="list">
+      <nav class="nav">
+        <a href="../index.html">Gateway</a>
+        <a href="../charaktere/index.html">Charaktere</a>
+        <a href="../truppen/index.html">Truppen</a>
+        <a href="../akten/index.html">Akten</a>
+      </nav>
+    </div>
+  </div>
+</header>
 
-          <li class="item">
-            <div class="left">
-              <div class="label">
-                <a href="untergrund/index.html">Untergrund</a>
-              </div>
-              <div class="hint">Aktiv. Dezentral. Vollständig kartiert.</div>
-            </div>
-            <div class="right">
-              <span class="pill">ACTIVE</span>
-            </div>
-          </li>
+<main>
 
-          <li class="item">
-            <div class="left">
-              <div class="label">
-                <a href="slum/index.html">Slum</a>
-              </div>
-              <div class="hint">Zugänglich. Inhalt unvollständig.</div>
-            </div>
-            <div class="right">
-              <span class="pill">RAW</span>
-            </div>
-          </li>
+<section class="hero">
+  <div class="container">
+    <div class="hero-card">
 
-          <li class="item">
-            <div class="left">
-              <div class="label">
-                <a href="megacity/index.html">Megacity</a>
-              </div>
-              <div class="hint">Struktur erkannt. Zugriff überwacht.</div>
-            </div>
-            <div class="right">
-              <span class="pill">LOCKED</span>
-            </div>
-          </li>
-
-          <li class="item">
-            <div class="left">
-              <div class="label">
-                <a href="elite/index.html">Elite</a>
-              </div>
-              <div class="hint">Zugriff beschränkt. Inhalte verborgen.</div>
-            </div>
-            <div class="right">
-              <span class="pill">RESTRICTED</span>
-            </div>
-          </li>
-
-        </ul>
-
-        <hr>
-
-        <p class="note">
-          Karten zeigen Wege.  
-          Sie zeigen nicht, wem sie gehören.
-        </p>
+      <div class="kicker">
+        <span class="dot"></span>
+        <span>MAP</span>
       </div>
 
-      <div class="footer">
-        <div>welten/index.html</div>
-        <div class="small">hub • ba-os</div>
-      </div>
-    </section>
+      <h1>Welten</h1>
 
-  </section>
-</div>
+      <p class="lead">
+        Die Welt ist fragmentiert.  
+        Zugriff bedeutet nicht Kontrolle.  
+        Karten sind unvollständig.
+      </p>
 
-</body>
-</html>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-title">ZONEN</div>
+
+    <div class="grid">
+
+      <a class="card" href="untergrund/index.html">
+        <h3>Untergrund</h3>
+        <p>Dezentral. Autonom. Vollständig kartiert.</p>
+        <div class="badge"><span class="pill"></span><span>ACTIVE</span></div>
+      </a>
+
+      <a class="card" href="slum/index.html">
+        <h3>Slum</h3>
+        <p>Zugänglich. Roh. Fragmentiert.</p>
+        <div class="badge"><span class="pill"></span><span>RAW</span></div>
+      </a>
+
+      <a class="card" href="megacity/index.html">
+        <h3>Megacity</h3>
+        <p>Struktur erkannt. Zugriff überwacht.</p>
+        <div class="badge"><span class="pill"></span><span>LOCKED</span></div>
+      </a>
+
+      <a class="card" href="elite/index.html">
+        <h3>Elite</h3>
+        <p>Zugriff beschränkt. Inhalte verborgen.</p>
+        <div class="badge"><span class="pill"></span><span>RESTRICTED</span></div>
+      </a>
+
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="terminal">
+      <div class="row"><span class="muted">ZONES</span><span>4</span></div>
+      <div class="row"><span class="muted">STATUS</span><span class="ok">ASY
