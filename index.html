@@ -1,76 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Bozart Army — BA-OS</title>
-  <link rel="stylesheet" href="assets/css/ba-os.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <title>bozart.army | BA-OS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/ba-os.css">
 </head>
 <body>
 
-  <div id="topbar"></div>
+  <div class="container">
+    <section class="shell">
 
-  <header class="hero">
-    <div class="container">
-      <div class="hero-card">
-        <div class="kicker"><span class="dot"></span> System Online</div>
-        <h1 class="glitch" data-text="BA-OS">BA-OS</h1>
-        <p class="lead">
-          Ein wachsendes Archiv. Eine Oberfläche. Ein lebendes Universum.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn primary" href="./welten/">Einstieg: Welten</a>
-          <a class="btn" href="./akten/">Akten öffnen</a>
-          <a class="btn danger" href="./charaktere/jokersec/">Glitch-FM</a>
+      <header class="topbar">
+        <div class="brand">
+          <span class="sig" aria-hidden="true"></span>
+          <div class="name">BOZART ARMY / BA-OS</div>
         </div>
-      </div>
-    </div>
-  </header>
 
-  <section class="section">
-    <div class="container">
-      <div class="section-title">Module</div>
+        <div class="status">
+          <span class="badge">ARCHIVE</span>
+          <span class="badge">YEAR 4780</span>
+        </div>
+      </header>
 
       <div class="grid">
-        <a class="card" href="./welten/">
-          <h3>Welten</h3>
-          <p>Elite, Megacity, Slum, Untergrund – Karten, Regeln, Atmosphäre.</p>
-          <div class="badge"><span class="pill"></span> Navigation</div>
-        </a>
 
-        <a class="card" href="./akten/">
-          <h3>Akten</h3>
-          <p>Charaktere, Timeline, Operationen, Artefakte, Querverweise.</p>
-          <div class="badge"><span class="pill"></span> Dossier</div>
-        </a>
+        <section class="panel">
+          <div class="hd">
+            <div>
+              <h2 class="title">Gateway</h2>
+              <p class="sub">Einstiegspunkt in das Archiv. Keine lineare Führung. Zugriff erfolgt über Struktur und Verlinkung.</p>
+            </div>
+            <div class="right">
+              <span class="pill">PUBLIC</span>
+            </div>
+          </div>
 
-        <a class="card" href="./wbn/">
-          <h3>WhiteBlock News</h3>
-          <p>Propaganda-Front. Sentinel-Fenster. Kontroll-Narrative.</p>
-          <div class="badge"><span class="pill"></span> Signal</div>
-        </a>
+          <div class="bd">
+            <ul class="list">
 
-        <a class="card" href="./charaktere/jokersec/">
-          <h3>JokerSec</h3>
-          <p>Piraten-Sender. Glitch-Events. Spuren im System.</p>
-          <div class="badge"><span class="pill"></span> Intrusion</div>
-        </a>
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="welten/index.html">Welten</a></div>
+                  <div class="hint">Zonen und Lebensräume. Untergrund ist die erste ausgebaute Welt.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">HUB</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="charaktere/index.html">Charaktere</a></div>
+                  <div class="hint">Figuren als operative Knoten. Zugriffspunkte, keine lineare Biografie.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">NODES</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="truppen/index.html">Truppen</a></div>
+                  <div class="hint">Kollektive, Fraktionen, Einheiten. Struktur erzeugt Bedeutung.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">FACTIONS</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="sender/glitchfm/index.html">GlitchFM</a></div>
+                  <div class="hint">Piratensender. Medium, Werkzeug, Waffe. Nicht identisch mit JokerSec.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">SIGNAL</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="sender/wbn/index.html">WBN</a></div>
+                  <div class="hint">WhiteBlock News. Propaganda, Kontrolle, Narrative.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">MEDIA</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="akten/index.html">Akten</a></div>
+                  <div class="hint">Dokumente, Beweise, Artefakte, Querverweise.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">FILES</span>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="left">
+                  <div class="label"><a href="timeline/index.html">Timeline</a></div>
+                  <div class="hint">Chronologie als Index. Nicht linear erzählend.</div>
+                </div>
+                <div class="right">
+                  <span class="pill">INDEX</span>
+                </div>
+              </li>
+
+            </ul>
+
+            <hr>
+
+            <p class="note">
+              Hinweis: Dieses Projekt ist spekulative Fiktion (Jahr 4780). Alle Inhalte sind erfunden und dienen ausschließlich der Erzählung und dem Worldbuilding.
+              Siehe <a href="FICTION_NOTICE.md">FICTION_NOTICE.md</a>.
+            </p>
+
+          </div>
+
+          <div class="footer">
+            <div>bozart.army-web</div>
+            <div class="small">GitHub Pages kompatibel • Reines HTML/CSS</div>
+          </div>
+        </section>
+
+        <aside class="panel">
+          <div class="hd">
+            <div>
+              <h2 class="title">Status</h2>
+              <p class="sub">Diese Oberfläche ist ein Gateway. Inhalte wachsen asynchron. Leere Bereiche sind Absicht.</p>
+            </div>
+            <div class="right">
+              <span class="pill">BA-OS</span>
+            </div>
+          </div>
+
+          <div class="bd">
+            <ul class="list">
+              <li class="item">
+                <div class="left">
+                  <div class="label">Welten</div>
+                  <div class="hint">Untergrund zuerst. Slum/Megacity/Elite als Platzhalter.</div>
+                </div>
+                <div class="right"><span class="pill">ASYNC</span></div>
+              </li>
+              <li class="item">
+                <div class="left">
+                  <div class="label">Archive</div>
+                  <div class="hint">Akten sind Beweise. Sender sind Signale. Timeline ist ein Index.</div>
+                </div>
+                <div class="right"><span class="pill">TRACE</span></div>
+              </li>
+              <li class="item">
+                <div class="left">
+                  <div class="label">Zugriff</div>
+                  <div class="hint">Kein Menüpunkt „Anführer“. Bozart ist Zentrum durch Verbindungen, nicht durch Label.</div>
+                </div>
+                <div class="right"><span class="pill">NODE</span></div>
+              </li>
+            </ul>
+
+            <hr>
+
+            <p class="note">
+              Regeln: Keine Frameworks. Kein JavaScript. Nur HTML/Markdown. Klare Pfade.
+            </p>
+          </div>
+
+          <div class="footer">
+            <div>BUILD</div>
+            <div class="small">v0 • gateway</div>
+          </div>
+        </aside>
+
       </div>
+    </section>
+  </div>
 
-      <div class="hr"></div>
-
-      <div class="terminal">
-        <div class="row"><span class="muted">STATUS</span><span class="ok">SYNC OK</span></div>
-        <div class="row"><span class="muted">CHANNEL</span><span>bozart-army-web</span></div>
-        <div class="row"><span class="muted">NOTE</span><span class="warn">Signals detected.</span></div>
-      </div>
-
-      <div class="footer">Bozart Army / BA-OS</div>
-    </div>
-  </section>
-
-  <script src="assets/js/app.js"></script>
 </body>
 </html>
