@@ -5,25 +5,32 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Zellen | Untergrund | BA-OS</title>
 
-  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <!-- GitHub Pages Project Site -->
+  <base href="/bozart-army-web/">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
 
 <header class="topbar">
   <div class="container">
     <div class="inner">
+
       <div class="brand">
         <span class="sig" aria-hidden="true"></span>
         <div>
           <div class="title">BOZART ARMY</div>
-          <div class="sub">BA-OS / WELTEN / UNTERGRUND / ZELLEN</div>
+          <div class="sub">UNTERGRUND / ZELLEN</div>
         </div>
       </div>
 
       <nav class="nav">
-        <a href="index.html">Untergrund</a>
-        <a href="../index.html">Welten</a>
+        <a href="welten/untergrund/index.html">Untergrund</a>
+        <a href="welten/index.html">Welten</a>
+        <a href="akten/index.html">Akten</a>
       </nav>
+
     </div>
   </div>
 </header>
@@ -36,14 +43,14 @@
 
       <div class="kicker">
         <span class="dot"></span>
-        <span>STRUCTURE</span>
+        <span>STRUKTUR</span>
       </div>
 
-      <h1>Zellen</h1>
+      <h1>ZELLEN</h1>
 
       <p class="lead">
-        Zellen sind abgeschottete Einheiten.  
-        Isolation ist Schutz – und Risiko.
+        Zellen kennen einander nicht.  
+        Sie funktionieren trotzdem.
       </p>
 
     </div>
@@ -53,26 +60,46 @@
 <section class="section">
   <div class="container">
 
-    <div class="section-title">TYPEN</div>
-
     <div class="grid">
 
       <div class="card">
-        <h3>Autonome Zelle</h3>
-        <p>Operiert unabhängig. Kennt keine Gesamtstruktur.</p>
+        <h3>Autarkie</h3>
+        <p>
+          Jede Zelle operiert eigenständig.  
+          Wissen ist fragmentiert.  
+          Verlust einer Zelle kompromittiert das System nicht.
+        </p>
         <div class="badge"><span class="pill"></span><span>ISOLATED</span></div>
       </div>
 
       <div class="card">
-        <h3>Verbundene Zelle</h3>
-        <p>Teil eines Netzwerks. Informationen sind fragmentiert.</p>
-        <div class="badge"><span class="pill"></span><span>LINKED</span></div>
+        <h3>Redundanz</h3>
+        <p>
+          Aufgaben sind mehrfach vergeben.  
+          Ausfall wird erwartet.  
+          Ersatz existiert vor der Notwendigkeit.
+        </p>
+        <div class="badge"><span class="pill"></span><span>FAIL-SAFE</span></div>
       </div>
 
       <div class="card">
-        <h3>Schläferzelle</h3>
-        <p>Inaktiv. Aktivierung nur durch externe Trigger.</p>
-        <div class="badge"><span class="pill"></span><span>DORMANT</span></div>
+        <h3>Identität</h3>
+        <p>
+          Namen sind temporär.  
+          Rollen wechseln.  
+          Gesichter sind irrelevant.
+        </p>
+        <div class="badge"><span class="pill"></span><span>ANON</span></div>
+      </div>
+
+      <div class="card">
+        <h3>Kontakt</h3>
+        <p>
+          Kommunikation erfolgt indirekt.  
+          Zeitversetzt.  
+          Ohne Bestätigung.
+        </p>
+        <div class="badge"><span class="pill"></span><span>DELAYED</span></div>
       </div>
 
     </div>
@@ -80,9 +107,9 @@
     <div class="hr"></div>
 
     <div class="terminal">
-      <div class="row"><span class="muted">COUNT</span><span>UNKNOWN</span></div>
-      <div class="row"><span class="muted">VISIBILITY</span><span>LOW</span></div>
-      <div class="row"><span class="muted">NOTE</span><span>NO CELL SEES ALL</span></div>
+      <div class="row"><span class="muted">CELL COUNT</span><span>UNKNOWN</span></div>
+      <div class="row"><span class="muted">CENTRAL AUTHORITY</span><span class="warn">NONE</span></div>
+      <div class="row"><span class="muted">COMPROMISE IMPACT</span><span class="ok">LOW</span></div>
     </div>
 
   </div>
