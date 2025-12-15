@@ -564,3 +564,26 @@ h1{
   .panel{ grid-column: span 12; }
   .kv{ grid-template-columns: 1fr; }
 }
+
+/* =========================================================
+   BA-OS: Focus / Keyboard States (OS-Access)
+   ========================================================= */
+:where(a, button, .btn, .card, .nav a):focus{ outline: none; }
+
+:where(.btn, .card, .nav a):focus-visible{
+  outline: 2px solid rgba(108,240,255,.55);
+  outline-offset: 3px;
+  box-shadow:
+    0 0 0 6px rgba(108,240,255,.08),
+    0 12px 36px rgba(0,0,0,.35);
+}
+
+.card:focus-visible{
+  border-color: rgba(108,240,255,.40);
+  transform: translateY(-2px);
+}
+
+.nav a:focus-visible{
+  border-color: rgba(108,240,255,.35);
+  background: rgba(12,18,34,.62);
+}
